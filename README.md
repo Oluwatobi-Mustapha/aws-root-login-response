@@ -33,7 +33,7 @@ The function is triggered by EventBridge when a root login is detected. It parse
 
 * The root user's ARN
 * The source IP address
-* The login timestamp
+* The login timestam
 
 While I initially planned to send an email alert using SNS and store the event in S3, I chose to pause here:
 
